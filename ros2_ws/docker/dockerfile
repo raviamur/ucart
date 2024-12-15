@@ -1,0 +1,27 @@
+# Use an official ROS 2 image
+FROM osrf/ros:humble-desktop
+
+# Set environment variables
+ENV ROS_DISTRO humble
+ENV DEBIAN_FRONTEND noninteractive
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    python3-colcon-common-extensions \
+    git \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create the workspace
+WORKDIR /ros2_ws
+
+# Copy the source files into the container
+COPY ../src ./src
+
+# Build the workspace
+RUN . /opt/ros/$ROS_DISTRO/setup.sh && colcon build
+
+# Source the workspace setup
+CMD ["bash", "-c", "source /ros2_ws/install/setup.bash && bash"]
+
+

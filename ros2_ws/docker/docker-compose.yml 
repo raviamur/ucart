@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  ros2:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./ros2_ws:/ros2_ws
+    working_dir: /ros2_ws
+    network_mode: host
+    environment:
+      - ROS_DOMAIN_ID=0
+    tty: true

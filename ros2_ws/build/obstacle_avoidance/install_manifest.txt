@@ -1,0 +1,15 @@
+/ros2_ws/install/obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/obstacle_avoidance
+/ros2_ws/install/obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/obstacle_avoidance
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.sh
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.dsv
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.sh
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.dsv
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.bash
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.sh
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.zsh
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.dsv
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.dsv
+/ros2_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages/obstacle_avoidance
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig.cmake
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig-version.cmake
+/ros2_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.xml

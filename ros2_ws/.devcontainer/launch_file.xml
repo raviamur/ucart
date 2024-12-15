@@ -1,0 +1,5 @@
+<launch>
+<node pkg="sensor_package" exec="lidar_node" name="lidar" output="screen" />
+<node pkg="camera_package" exec="camera_node" name="camera" output="screen" />
+<node pkg="fusion_package" exec="fusion_node" name="sensor_fusion" output="screen" />
+</launch>
